@@ -16,4 +16,4 @@ COPY . .
 
 ENV PATH=/root/.local:$PATH
 
-CMD [ "python", "-m", "Bot" ]
+CMD [ "python", "main.py" ]
